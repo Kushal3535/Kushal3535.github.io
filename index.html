@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kushal kumar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/32147a60c0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <!-- <img src="Images/wallpaperblack.jpg" alt="logo"> -->
+            <ul id="sidemenu">
+                <li><a href="#header"><i class="fa-solid fa-house"></i>  Home</a></li>
+                <li><a href="#about"><i class="fa-regular fa-address-card"></i>   About</a></li>
+                <li><a href="#services"><i class="fa-regular fa-file"></i>   Projects</a></li>
+                <li><a href="#Portfolio"><i class="fa-solid fa-award"></i>  Certifications</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-circle-info"></i>  Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+             <h1><i class="fa-brands fa-java fa-fade"></i></h1>
+             <h1>Hi,Iam <span>kushal Kumar</span></h1>
+        </div>
+    </div>
+</div>
+<!----------About------->
+<div id="about">
+   <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <!-- <img src="Images/mall.jpeg"> -->
+            </div>
+            <div class="about-col-2">
+                <h1>About Me</h1>
+                <p>A Java Developer enthusiastic in developing robust and efficient code,with passion for problem-solving.</p>
+                <br>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>  
+                </div>
+               <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Java</span><br>Core Java<br>Oops<br>DataStructures and Algorithms<br>collections</li>
+                        <li><span>SQl</span><br>Sql languages<br>Normalization</li>
+                    </ul>
+               </div>
+               <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Fresher</span><br>Recent Graduate Searching for the Oppurtunity to prove my skills</li>
+                    <!-- <li><span>SQl</span><br>dfg</li> -->
+                </ul>
+           </div>
+           <div class="tab-contents" id="education">
+            <ul>
+                <li><span>Jspiders Marathahalli</span><br>Java Fullstack Development course<br>2023</li>
+                <li><span>Siddharth Institute Of Enginnering And Technology</span><br>Electronics And Communication Engineering<br>2019-2023<br>Cgpa-8.69</li>
+                <li><span>Narayana Junior College</span><br>Mpc<br>2018-2019<br>cgpa-9.75</li>
+                <li><span>Sri Venkateswara Children's High School</span><br>2016-2017<br>cgpa-9.8</li>
+            </ul>
+       </div>
+            </div>
+        </div>
+   </div>
+</div>
+<!--------------------projects---------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Java</h2>
+                <p>ATM Simulator: Created a simulation of an ATM machine that enables users to perform basic operations like withdrawing money, depositing money, and checking their account balance.</p>
+                <a href="#">view more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Designed an Portfolio Website which has quick responses and saves the data.</p>
+                <a href="#">view more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-user-graduate"></i>
+                <h2>Graduation Project</h2>
+                <p>Smart soldier strap for temperature sensing and Health Monitoring</p>
+                <a href="#">view more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------certifications------------>
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+        <div class="work-list">
+            <div class="work">
+                 <img src="Images/python.png">
+                 <div class="layer">
+                    <h3>Programming For Everbody</h3>
+                    <p>Done with python course from Michigan University</p>
+                    <a href="https://coursera.org/share/45d4a48765dbc7f69edc15e98638997d" target="_blank"><i class="fa-solid fa-link"></i></a>
+                 </div>
+            </div>
+            <div class="work">
+                <img src="Images/Dsas.jpg">
+                <div class="layer">
+                    <h3>Java Arrays,DSA</h3>
+                    <p>Efficient in solving the tasks using Arrays,DSA and got a certificate from Duke University </p>
+                    <a href="https://coursera.org/share/279d47752c1aec10600922e87b1b7c7a" target="_blank"><i class="fa-solid fa-link"></i></a>
+                 </div>
+           </div>
+           <div class="work">
+            <img src="Images/internsip.jpg">
+            <div class="layer">
+                <h3>Java Internship</h3>
+                <p>Done with the two weeeks Internship in Qspiders,Banglore</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+             </div>
+       </div>
+           <div class="work">
+            <img src="Images/nptel.jpg">
+            <div class="layer">
+                <h3>Nptel</h3>
+                <p>Introduction to Industry 4.0 and Industrial Internet Of Things</p>
+                <a href="https://archive.nptel.ac.in/noc/B2C/candidate_login/transcript_download.php" target="_blank"><i class="fa-solid fa-link"></i></a>
+             </div>
+       </div>
+
+        </div>
+        <!-- <a href="#" class="btn">See more</a> -->
+    </div>
+</div>
+<!---------------------contact-------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"></i>Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope" id="mail"></i>singamsettykushalkumar12@gmail.com</p>
+                    <p><i class="fa-solid fa-phone" id="mobile"></i>8688938582</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100039017332237" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/kushalkumar___/" target="_blank"><i class="fa-brands fa-instagram" id="insta"></i></a>
+                        <a href="https://github.com/Kushal3535" target="_blank"><i class="fa-brands fa-github" id="git"></i></a>
+                        <a href="http://linkedin.com/in/kushal-kumar-51a30218b" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Images/S.kushal Kumar resume.docx" download class="btn btn2"id="download">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2" id="download">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Made by <i class="fa-solid fa-heart"></i> Kushal Kumar</p>
+        </div>
+    </div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu()
+    {
+        sidemeu.style.right="0";
+    }
+    function closemenu()
+    {
+        sidemeu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwo6kXHnHOTeMUOsJ5fPW1IibRyGI6G4kFbSYNwmjFbcn7rDBL2w8XO8wXB2tCzdch_/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Submitted Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
