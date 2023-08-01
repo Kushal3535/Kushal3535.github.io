@@ -423,7 +423,7 @@ nav .fas
 {
     #header
     {
-        background-image:url(kushal.jpg) ;
+        background-image:100%;url(kushal.jpg) ;
     }
     .header-text
     {
