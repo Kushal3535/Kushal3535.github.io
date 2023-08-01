@@ -427,6 +427,8 @@ body
     #header
     {
         background-image:100%;url(kushal.jpg) ;
+	width:100vh;
+        height:60vh;
     }
     .header-text
     {
