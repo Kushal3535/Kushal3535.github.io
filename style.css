@@ -16,7 +16,7 @@ body
 {
     width: 100%;
     height: 0px 500px 0px;
-    background-image: url(kushal.jpg);
+/*     background-image: url(kushal.jpg); */
     background-size: cover;
     background-position: center;
 }
