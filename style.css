@@ -418,17 +418,11 @@ nav .fas
 {
     display: none;
 }
-body
-{
-    width:100vh;
-}
 @media only screen and (max-width:600px)
 {
     #header
     {
         background-image:100%;url(kushal.jpg) ;
-	width:100vh;
-        height:60vh;
     }
     .header-text
     {
