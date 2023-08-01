@@ -157,7 +157,7 @@
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="Email" placeholder="Your email" required>
                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2" id="download">Submit</button>
+                        <button type="submit" class="btn btn2" id="download">Send</button>
                     </form>
                     <span id="msg"></span>
                 </div>
@@ -204,7 +204,7 @@
       e.preventDefault()
       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
         .then(response => {
-            msg.innerHTML = "Submitted Successfully"
+            msg.innerHTML = "Sent Successfully"
             setTimeout(function(){
                 msg.innerHTML=""
             },5000)
